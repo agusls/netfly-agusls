@@ -1,7 +1,11 @@
 export default function Copyright() {
   return (
     <>
-      <p>&copy; 2022 - agusls blog</p>
+      <p><div>
+        <a href="/posts/privacy">Privacy</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="/posts/terms">Terms</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="/posts/disclaimer">Disclaimer</a>
+      </div><br />&copy; 2022 - Teknosia</p>
       <style jsx>
         {`
           p {
